@@ -1,0 +1,26 @@
+## .gitignore para ASP.NET Core — backend-aspnet
+
+# Carpetas de compilación
+bin/
+obj/
+
+# Base de datos SQLite (se crea automáticamente al arrancar)
+*.db
+*.db-shm
+*.db-wal
+
+# Secretos y configuración local
+appsettings.Local.json
+.env
+
+# Visual Studio / Rider
+.vs/
+*.user
+*.suo
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Claves de DataProtection generadas en runtime
+DataProtection-Keys/
